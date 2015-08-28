@@ -429,7 +429,7 @@ $ git log --oneline --graph
 * 58ff24a Add readme.txt
 ```
 
-Logs are displayed with most recent commits at the top. Each `*` corresponds with a commit, with it's SHA-1 hash and message displayed on the right. The `master` branch is always the left-most path, a straight line.
+Logs are displayed with most recent commits at the top. Each `*` corresponds with a commit, with its SHA-1 hash and message displayed on the right. The `master` branch is always the left-most path, a straight line.
 
 We can see clearly where our `feature` branch _diverged_ from master. After diverging, we made a single commit, "Add license.txt", to the `master` branch, and another single commit, "Add fib.js", to the `feature` branch.
 
@@ -685,7 +685,7 @@ _Note:_ If you are attempting this example verbatim, you will receive errors and
 
 ### git remote add origin (advanced)
 
-To tell a _local_ repository about it's online, hosted counterpart, we will **add a remote origin**. For example usage, I've created a repository on Github with everything we did in [local git](#local-git-usage).
+To tell a _local_ repository about its online, hosted counterpart, we will **add a remote origin**. For example usage, I've created a repository on Github with everything we did in [local git](#local-git-usage).
 
 ```sh
 $ git remote add origin https://github.com/zhaorz/git-practice.git
