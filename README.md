@@ -122,7 +122,7 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-It tells us that we have an **untracked file**, called `readme.txt`. In order for git to _keep track_ of files, you have to explicitly tell it. Git messages from `git status` are generally very helpful. In this case, it tells use to use `git add` to track our files.
+It tells us that we have an **untracked file**, called `readme.txt`. In order for git to _keep track_ of files, you have to explicitly tell it. Git messages from `git status` are generally very helpful. In this case, it tells us to use `git add` to track our files.
 
 ### git add
 
